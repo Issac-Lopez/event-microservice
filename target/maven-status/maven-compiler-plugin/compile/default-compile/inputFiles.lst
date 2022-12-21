@@ -18,3 +18,4 @@
 /app/swdev/src/main/java/edu/msudenver/venue/VenueService.java
 /app/swdev/src/main/java/edu/msudenver/city/CityController.java
 /app/swdev/src/main/java/edu/msudenver/event/EventRepository.java
+/app/swdev/src/main/java/edu/msudenver/springfox/SpringFoxConfig.java

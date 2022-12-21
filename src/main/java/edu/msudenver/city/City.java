@@ -2,17 +2,16 @@ package edu.msudenver.city;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import edu.msudenver.country.Country;
-import org.hibernate.annotations.TypeDef;
-import org.hibernate.annotations.TypeDefs;
-
 import javax.persistence.*;
+// lombok is a library that generates getters and setters for you
+// https://projectlombok.org/
+import lombok.Getter;
+import lombok.Setter;
+import lombok.RequiredArgsConstructor;
 
-@TypeDefs({
-        @TypeDef(
-                name = "string-array",
-                typeClass = StringArrayType.class
-        )
-})
+@Getter
+@Setter
+@RequiredArgsConstructor
 @Entity
 @Table(name = "cities")
 @IdClass(CityId.class)
@@ -37,41 +36,6 @@ public class City {
         this.postalCode = postalCode;
         this.country = country;
         this.countryCode = countryCode;
-        this.name = name;
-    }
-
-    public City() {
-    }
-
-    public String getPostalCode() {
-        return postalCode;
-    }
-
-    public void setPostalCode(String postalCode) {
-        this.postalCode = postalCode;
-    }
-
-    public Country getCountry() {
-        return country;
-    }
-
-    public void setCountry(Country country) {
-        this.country = country;
-    }
-
-    public String getCountryCode() {
-        return countryCode;
-    }
-
-    public void setCountryCode(String countryCode) {
-        this.countryCode = countryCode;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
         this.name = name;
     }
 }

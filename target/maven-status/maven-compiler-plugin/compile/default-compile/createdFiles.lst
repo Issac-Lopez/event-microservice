@@ -18,3 +18,4 @@ edu/msudenver/event/Event.class
 edu/msudenver/city/StringArrayType.class
 edu/msudenver/MainApplication.class
 edu/msudenver/country/Country.class
+edu/msudenver/springfox/SpringFoxConfig.class

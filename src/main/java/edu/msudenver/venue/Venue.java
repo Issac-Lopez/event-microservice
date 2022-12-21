@@ -5,7 +5,13 @@ import edu.msudenver.city.City;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.RequiredArgsConstructor;
 
+@Getter
+@Setter
+@RequiredArgsConstructor
 @Entity
 @Table(name = "venues")
 public class Venue implements Serializable {
@@ -44,72 +50,6 @@ public class Venue implements Serializable {
         this.type = type;
         this.city = city;
         this.postalCode = postalCode;
-        this.active = active;
-    }
-
-    public Venue() {
-    }
-
-    public City getCity() {
-        return city;
-    }
-
-    public void setCity(City city) {
-        this.city = city;
-    }
-
-    public Long getVenueId() {
-        return venueId;
-    }
-
-    public void setVenueId(Long venueId) {
-        this.venueId = venueId;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getStreetAddress() {
-        return streetAddress;
-    }
-
-    public void setStreetAddress(String streetAddress) {
-        this.streetAddress = streetAddress;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
-
-    public String getPostalCode() {
-        return postalCode;
-    }
-
-    public void setPostalCode(String postalCode) {
-        this.postalCode = postalCode;
-    }
-
-    public String getCountryCode() {
-        return countryCode;
-    }
-
-    public void setCountryCode(String countryCode) {
-        this.countryCode = countryCode;
-    }
-
-    public boolean getActive() {
-        return active;
-    }
-    public void setActive(boolean active) {
         this.active = active;
     }
 }

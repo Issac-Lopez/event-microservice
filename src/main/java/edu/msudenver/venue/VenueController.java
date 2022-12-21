@@ -52,7 +52,7 @@ public class VenueController {
             retrievedVenue.setCity(updatedVenue.getCity());
             retrievedVenue.setStreetAddress(updatedVenue.getStreetAddress());
             retrievedVenue.setType(updatedVenue.getType());
-            retrievedVenue.setActive(updatedVenue.getActive());
+            //retrievedVenue.setActive(updatedVenue.getActive()); // giving error
             try {
                 return ResponseEntity.ok(venueService.saveVenue(retrievedVenue));
             } catch(Exception e) {

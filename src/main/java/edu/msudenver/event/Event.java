@@ -4,6 +4,13 @@ import edu.msudenver.venue.Venue;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.RequiredArgsConstructor;
+
+@Getter
+@Setter
+@RequiredArgsConstructor
 @Entity
 @Table(name = "events")
 public class Event implements Serializable {
@@ -27,38 +34,6 @@ public class Event implements Serializable {
         this.title = title;
         this.starts = starts;
         this.ends = ends;
-        this.venueId = venueId;
-    }
-    public Event() {}
-    public String getTitle() {
-        return this.title;
-    }
-    public Date getStarts() {
-        return this.starts;
-    }
-    public Date setStarts(Date starts) {
-        return this.starts;
-    }
-    public Date getEnds() {
-        return this.ends;
-    }
-    public Date setEnds(Date ends) {
-        return this.ends;
-    }
-    public Long getEventId() {
-        return this.eventId;
-    }
-    public void setEventId(Long eventId) {
-        this.eventId = eventId;
-    }
-    public Event setTitle(String title) {
-        this.title = title;
-        return this;
-    }
-    public Long getVenueId() {
-        return this.venueId;
-    }
-    public void setVenueId(Long venueId) {
         this.venueId = venueId;
     }
 }
