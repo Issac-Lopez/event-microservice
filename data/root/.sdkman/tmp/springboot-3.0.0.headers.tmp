@@ -1,0 +1,35 @@
+HTTP/1.1 302 Found
+Server: nginx/1.19.10
+Date: Tue, 20 Dec 2022 18:48:56 GMT
+Content-Length: 0
+Connection: keep-alive
+X-Sdkman-ArchiveType: zip
+location: https://repo.spring.io/simple/libs-release-local/org/springframework/boot/spring-boot-cli/3.0.0/spring-boot-cli-3.0.0-bin.zip
+
+HTTP/1.1 302 Found
+Date: Tue, 20 Dec 2022 18:48:56 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-JFrog-Version: Artifactory/7.41.7 74107900
+X-Artifactory-Id: c6c2bf6161a59ec249f91eee137a369170031b43
+X-Artifactory-Node-Id: springsource-artifactory-primary-2
+Location: https://jfrog-prod-use1-shared-virginia-main.s3.amazonaws.com/aol-springsource/filestore/2e/2efb81f006bf21486143d50a6aa429ea857ad284?X-Artifactory-username=anonymous&X-Artifactory-repositoryKey=libs-release-local&X-Artifactory-artifactPath=org%2Fspringframework%2Fboot%2Fspring-boot-cli%2F3.0.0%2Fspring-boot-cli-3.0.0-bin.zip&X-Artifactory-projectKey=default&x-jf-traceId=ed3aab7980120cce&response-content-disposition=attachment%3Bfilename%3D%22spring-boot-cli-3.0.0-bin.zip%22&response-content-type=application%2Fzip&X-Amz-Security-Token=FwoGZXIvYXdzEFQaDJ%2FoXt1b%2B7A1bCZA2iKlBLAcOlCFFuYtod4JYoNME4wwlsaV8BjKiaMBxvmHCBbmVS%2B0i%2BaySmSK2gSfPg7aLifzFp028bvCpB3ee9Qj7h3IVdJagL1h5MHduuJ%2FKVXrjdsVdElx%2Bwj095J8dAi0oqS9RcCBl6qFGrLVKTTBovSssGJIhz4Qt%2FH5FUSu45Lbp5vQucFMkvgBKx5mWTWHdRhWcHkfl56ZW0WFSGB4g3ENqQ82iP%2FKNdgD9tohfft9b9kfSN1Jy%2BmjLD%2BsjqcRw1WyDLAxIo8vrl8M2jaR3f8Jvv9u4a1BATgSa8McADJtzbb00wKi4dNaR9EMyJrXlNe2MsnVPW8Fj8df1lhq77%2FH40%2F0QmzcVVqNz4vWIRMM2K1Ng1IQLByTfAZTxOqF2x6vFu6klkHKyFQsPTA%2F%2F3HJu3B17F%2B1T8%2B3ZfKyYlMQbKQ9r4%2FWObuIZMGEIT27xiAB8pxpiO9zP8JgE3xlMfPDqsKgvLupvtgffv6r2lWlWtL3RBNEHVpMM%2FCAANy7L5X8b0KCzUAT%2F%2F0qXYDwJRSE%2BqN9birp6yoOQHvv8%2B7YI3NUvdzYTx57PsIPRBbXhIWE7WWgSDrllk2W0LtlRNegez0KJkZmKQvEJyMWlV7ibI8fYE%2FkedMHpZyhbOZocTJVmObwNv0jAerIJxH9RR4WX%2FmxPOY8mb4DSyWxh8TU%2BWfChUDoIh8YsmnAn31lKLHmaAkliUZhrp1Q8pzICROLysNwayiUg4idBjIrdgECe0aCBbvDjpqaiJHUKrjEbrAGEt9WiA1Utez5dNR5EO8LdqAkl%2FBMaQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20221220T184856Z&X-Amz-SignedHeaders=host&X-Amz-Expires=60&X-Amz-Credential=ASIA6RUGCBMHJB663PTG%2F20221220%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fb2359c077eb10c8d76350f1e10f429c5b15e2a8c72e131d7f3dbc24406998de
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Request-ID: aef9d03363ff2b525807dce9729512fc
+
+HTTP/1.1 200 OK
+x-amz-id-2: CB/PT6TFbHafXjGkfd32jiLEc4aya6lY1hh5DlM0YNYQR1uWyBzRa8eV9e/RdZdt79JoTPDXVeg=
+x-amz-request-id: 4EZ7T7AN8RJ7YB6Q
+Date: Tue, 20 Dec 2022 18:48:58 GMT
+x-amz-replication-status: COMPLETED
+Last-Modified: Thu, 08 Dec 2022 01:12:05 GMT
+ETag: "55363636a0e7799082a4709e0209afd2"
+x-amz-server-side-encryption: AES256
+x-amz-meta-mtime: 1669311290.008
+x-amz-version-id: lnWeU0n9qhJ.MIZ.T5CkPG7ZXUJqZmyI
+Content-Disposition: attachment;filename="spring-boot-cli-3.0.0-bin.zip"
+Accept-Ranges: bytes
+Content-Type: application/zip
+Server: AmazonS3
+Content-Length: 4694199
+

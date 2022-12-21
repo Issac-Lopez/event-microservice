@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "ca4007aa-5011-4ecc-8bc6-7798b899f515",
+		"name": "7dbs API Tests Venues",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20892679"
+	},
+	"item": [
+		{
+			"name": "heroku",
+			"item": [
+				{
+					"name": "Venues",
+					"item": [
+						{
+							"name": "Create Venue",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"postalCode\": \"80013\",\n    \"countryCode\": \"us\",\n    \"name\": \"My House\",\n    \"streetAddress\": \"19558 E Floyd Ave\",\n    \"type\": \"public\",\n    \"active\": true\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}/venues/",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"venues",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Find All Venues",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/venues/",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"venues",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Venue",
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Venue",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://localhost:8080/countries/:countryCode",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"countries",
+										":countryCode"
+									],
+									"variable": [
+										{
+											"key": "countryCode",
+											"value": "ca"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Venue",
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

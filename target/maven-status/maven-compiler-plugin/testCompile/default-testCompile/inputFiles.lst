@@ -1,0 +1,4 @@
+/app/swdev/src/test/java/edu/msudenver/city/CityControllerTest.java
+/app/swdev/src/test/java/edu/msudenver/event/EventControllerTest.java
+/app/swdev/src/test/java/edu/msudenver/country/CountryControllerTest.java
+/app/swdev/src/test/java/edu/msudenver/venue/VenueControllerTest.java

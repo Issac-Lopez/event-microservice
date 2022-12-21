@@ -1,0 +1,4 @@
+edu/msudenver/venue/VenueControllerTest.class
+edu/msudenver/country/CountryControllerTest.class
+edu/msudenver/city/CityControllerTest.class
+edu/msudenver/event/EventControllerTest.class

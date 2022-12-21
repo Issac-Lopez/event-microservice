@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "96c4352b-4d01-440f-a7e3-afdb9cdd1ec0",
+		"name": "7dbs API Tests Cities",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20892679"
+	},
+	"item": [
+		{
+			"name": "heroku",
+			"item": [
+				{
+					"name": "Cities",
+					"item": [
+						{
+							"name": "Create Cities",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"postalCode\": \"80232\",\n    \"name\": \"Lakewood\",\n    \"countryCode\": \"us\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}/cities/",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"cities",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Find All Cities",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{host}}/cities/",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"cities",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Find One Cities",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}/cities/us/80232",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"cities",
+										"us",
+										"80232"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Cities",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"countryCode\": \"ca\",\n    \"countryName\": \"Canada Updated\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}/cities/:countryCode",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"cities",
+										":countryCode"
+									],
+									"variable": [
+										{
+											"key": "countryCode",
+											"value": "ca"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Cities",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}/cities/:countryCode",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"cities",
+										":countryCode"
+									],
+									"variable": [
+										{
+											"key": "countryCode",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
