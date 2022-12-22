@@ -1,2 +1,9 @@
 mvn compile
 mvn spring-boot:run
+mvn compile
+mvn spring-boot:run
+mvn spring-boot:run
+mvn compile
+mvn compile
+mvn spring-boot:run
+mvn spring-boot:run

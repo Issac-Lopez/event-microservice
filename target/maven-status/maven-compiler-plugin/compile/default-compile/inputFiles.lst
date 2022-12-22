@@ -1,6 +1,6 @@
-/app/swdev/src/main/java/edu/msudenver/MainApplication.java
 /app/swdev/src/main/java/edu/msudenver/country/CountryRepository.java
 /app/swdev/src/main/java/edu/msudenver/country/CountryService.java
+/app/swdev/src/main/java/edu/msudenver/MainApplication.java
 /app/swdev/src/main/java/edu/msudenver/city/CityId.java
 /app/swdev/src/main/java/edu/msudenver/country/CountryController.java
 /app/swdev/src/main/java/edu/msudenver/event/EventService.java
@@ -18,4 +18,3 @@
 /app/swdev/src/main/java/edu/msudenver/venue/VenueService.java
 /app/swdev/src/main/java/edu/msudenver/city/CityController.java
 /app/swdev/src/main/java/edu/msudenver/event/EventRepository.java
-/app/swdev/src/main/java/edu/msudenver/springfox/SpringFoxConfig.java
